@@ -1,0 +1,328 @@
+body,
+div,
+p,
+ul,
+li,
+a,
+span,
+h1,
+h2,
+h3,
+em,
+input,
+form {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFBEB;
+}
+
+body {
+    font-family: "calluna-n4", "calluna", Georgia, serif;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    font-weight: 100;
+    line-height: 70px;
+    margin: 0px 0px 50px;
+    letter-spacing: -0.05em;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: -0.03em;
+}
+
+h2 em {
+    font-weight: 700;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+h3.bright,
+h3.strong {
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+    color: #E86C0C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bright {
+    color: #0F1BA2;
+}
+
+.hidden {
+    display: none;
+}
+
+div.page {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 0px;
+    position: relative;
+}
+
+div.content {
+    width: 800px;
+    margin: 0px;
+    padding: 50px 100px 0px;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}
+
+.clear {
+    clear: both;
+    line-height: 0px;
+    height: 0px;
+    width: 0px;
+}
+
+.block {
+    display: block;
+    text-indent: -9000px;
+    overflow: hidden;
+}
+
+div.twoCol div.left,
+div.twoCol div.right {
+    width: 350px;
+    float: left;
+}
+
+div.twoCol div.left {
+    padding-right: 50px;
+}
+
+div.twoCol div.right {
+    padding-left: 50px;
+}
+
+a.btn {
+    height: 20px;
+    padding: 10px 15px;
+    width: auto;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    font-style: italic;
+}
+
+.btn:hover {
+    background-position: 0px -40px;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+p.small {
+    font-size: 16px;
+    line-height: 1em;
+}
+
+/***************/
+/****CONTENT****/
+/***************/
+/*top feature area*/
+div.featureTop {
+    width: 400px;
+    margin: 135px 0px 230px 400px;
+    height: 275px;
+    text-align: center;
+    position: relative;
+}
+
+div.featureTop > h3 {
+    margin-bottom: 20px;
+}
+
+div.bookCover {
+    display: none;
+}
+
+/* examples */
+div.ex {
+    width: 800px;
+    clear: both;
+    overflow: auto;
+    margin-bottom: 0;
+    padding-bottom: 70px;
+}
+
+div.ex h2 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div.ex p {
+    width: 60%;
+}
+
+div.ex.left h2,
+div.ex.left p {
+    text-align: left;
+    float: left;
+}
+
+div.ex.right h2,
+div.ex.right p {
+    text-align: right;
+    float:right;
+}
+
+.why {
+    margin-bottom: 10px;
+    padding: 0 100px 100px;
+}
+
+.why h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.why p {
+    margin-bottom: 20px;
+}
+
+/* testimonials */
+.testimonials h2 {
+    text-align: center;
+}
+
+div.slides,
+div.slides div.slides_container,
+div.slides div.slides_container div {
+    height: 300px;
+    width: 600px;
+}
+
+div.slides {
+    margin: 50px auto;
+    height: 300px;
+    position: relative;
+}
+
+div.slides p,
+div.slides cite {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    text-indent: 0px;
+}
+
+div.slides p.quote {
+    font-style: italic;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+div.slides p.quote cite {
+    color: #835b0a;
+    font-weight: 500;
+}
+
+div.slides p.quote span:first-child {
+    float: left;
+    margin-top: 15px;
+    font-size: 3em;
+    padding-right: 5px;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+div.slides_container {
+    padding-top: 5px;
+}
+
+.testimonials p.disclaimer {
+    font-size: 12px;
+    text-align: right;
+    color: #a7987a;
+    margin-top: 10px;
+}
+
+/* videos */
+.videos {
+    padding-bottom: 50px;
+}
+
+.videos .video {
+    margin-top: 30px;
+}
+
+.videos img {
+    float: left;
+    margin-right: 50px;
+}
+
+.videos p.time {
+    margin-bottom: 10px;
+}
+
+.videos p.description {
+    line-height: 1.5em;
+}
+
+.videos .video h3 {
+    margin-bottom: 5px;
+}
+
+/* bio */
+div.bio {
+    width: 800px;
+    padding: 90px 0 50px;
+}
+
+div.bio img {
+    float: right;
+    border: none;
+    margin: 0 0 50px 50px;
+}
+
+div.bio h3 {
+    margin-bottom: 15px;
+}
+
+div.bio p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+
+
+
